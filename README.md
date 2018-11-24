@@ -16,9 +16,34 @@ allprojects {
 Step 2. Add the dependency
   ```sh
 dependencies {
-	        implementation 'com.github.quintuslabs:NotificationHelper:2.0'
+	        implementation 'com.github.quintuslabs:NotificationHelper:2.1'
 	}
 ```
+Step 3. Show Notification:
+
+Small Notification
+----
+
+  ```sh
+         Intent intent = new Intent(YourActivity.this,TargetActivity.class);
+
+        NotificationHelper notificationHelper = new NotificationHelper(getApplicationContext());
+        notificationHelper.createNotification("Test","Test Message",R.drawable.ic_luncher,intent);
+	
+
+```
+Big Notification
+----
+
+  ```sh
+         Intent intent = new Intent(YourActivity.this,TargetActivity.class);
+
+        NotificationHelper notificationHelper = new NotificationHelper(getApplicationContext());
+        notificationHelper.createNotification("Test","Test Message",R.drawable.ic_luncher,"imageUrl",intent);
+	
+
+```
+
 
 License
 ----
