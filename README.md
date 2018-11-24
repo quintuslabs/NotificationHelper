@@ -44,6 +44,11 @@ Big Notification
 
 ```
 
+ScreenShot
+----
+<img src="ScreenShot/1.png" width="30%"><img src="ScreenShot/2.png" width="30%" hspace="20">
+
+
 
 License
 ----
