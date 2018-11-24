@@ -16,7 +16,7 @@ allprojects {
 Step 2. Add the dependency
   ```sh
 dependencies {
-		implementation 'com.github.User:Repo:1.0'
+	        implementation 'com.github.quintuslabs:NotificationHelper:1.0'
 	}
 ```
 
